@@ -1,4 +1,4 @@
-module objeto5 {
+module QuadTree {
 	requires java.desktop;
-	requires java.base;
+	//packed QuadTree;
 }
