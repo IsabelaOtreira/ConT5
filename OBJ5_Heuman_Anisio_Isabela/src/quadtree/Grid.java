@@ -1,7 +1,7 @@
 //IFRJ - Instituto Federal do Rio de Janeiro
 //Jogos para Consoles - OBJ 05
-//Professor José Ricardo Junior
-//Alunos: Heuman Antunes - Anisio Corrêa - Isabela Otreira
+//Professor JosÃ© Ricardo Junior
+//Alunos: Heuman Antunes - Anisio CorrÃªa - Isabela Otreira
 //15_05_2021
 
 import java.awt.Color;
@@ -206,9 +206,8 @@ public class Grid extends JPanel implements ActionListener
 
   //  class MyKeyListener extends KeyAdapter {
     	//  public void keyPressed(KeyEvent e) {
-    	 //   if (e.getKeyChar() == 'a') {
+    	 //   if (e.getKeyChar() == 'Enter') {
     	    //	QuadAtivo = true;
-    	 //     System.out.println("Check for key characters: " + e.getKeyChar());
     	   // }
     	
     }
