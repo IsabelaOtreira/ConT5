@@ -3,29 +3,24 @@
 //Professor José Ricardo Junior
 //Alunos: Heuman Antunes - Anisio Corrêa - Isabela Otreira
 //15_05_2021
-package quadtree;
 
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 
 public class Main extends JFrame 
 {
 	
 public Main() {
-        
-        initUI();
+        iniInt();
     }
     
-    private void initUI() 
+    private void iniInt() 
     {
         
-        add(new Board());
+        add(new Grid());
         
         setResizable(false);
         pack();
-        //define o titulo da aplicação
-        setTitle("Quadtree estruturado - JAVA");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
